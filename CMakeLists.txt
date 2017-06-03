@@ -6,4 +6,4 @@ set(SOURCES jsmn.h jsmn.c)
 add_library(JSMN STATIC ${SOURCES})
 
 install(TARGETS JSMN 
-    ARCHIVE DESTINATION .)
+    ARCHIVE DESTINATION lib)
